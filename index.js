@@ -26,3 +26,12 @@ function prependDriver(name) {
   const copyOfDrivers = ['Arnold', ...drivers];
   return copyOfDrivers;
 }
+
+function removeLastDriver() {
+  const copyOfDrivers = drivers.slice(-1);
+  return copyOfDrivers;
+}
+
+function removeFirstDriver() {
+  
+}
