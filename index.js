@@ -21,3 +21,8 @@ function appendDriver(name) {
   const copyOfDrivers = [...drivers, 'Broom'];
   return copyOfDrivers;
 }
+
+function prependDriver(name) {
+  const copyOfDrivers = ['Arnold', ...drivers];
+  return copyOfDrivers;
+}
